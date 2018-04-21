@@ -30,7 +30,7 @@
         class XtalBlot extends HTMLElement {
             connectedCallback() {
                 // BLOTTER - Example 1
-                var text = new Blotter.Text('observation', {
+                var text = new Blotter.Text(this.getAttribute('text'), {
                     family: "'EB Garamond', serif",
                     size: 27,
                     fill: "#202020"
@@ -39,7 +39,10 @@
                 //const material = new Blotter.LiquidDistortMaterial();
                 //debugger;
                 const material = new Blotter[this._material.substr(0, 1).toUpperCase() + this._material.substr(1) + 'Material']();
-                material['uniforms'].uSpeed.value = 0.25;
+                const uniforms = material['uniforms'];
+                if (uniforms.uSpeed) {
+                    uniforms.uSpeed.value = 0.25;
+                }
                 var blotter = new Blotter(material, {
                     texts: text
                 });

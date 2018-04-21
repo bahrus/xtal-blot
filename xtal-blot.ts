@@ -29,7 +29,7 @@ declare namespace Blotter{
     const cs_src = self.xtal_blot ? self.xtal_blot.href : (document.currentScript as HTMLScriptElement).src;
     const pathTokens = cs_src.split('/'); pathTokens.pop();
     const basePath = pathTokens.join('/');
-    const pathToBlotter = basePath + '/blotter.min.js';
+    const pathToBlotter = basePath + '/blotter.js';
     const script = document.createElement('script');
     script.src = pathToBlotter;
     script.addEventListener('load', e => {

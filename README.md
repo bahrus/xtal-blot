@@ -2,6 +2,8 @@
 
 Web component wrapper around [blotter.js](https://blotter.js.org/) 
 
+Note:  There is a sporadic issue affecting Chrome (possibly only on windows) witht the [underlying library](https://github.com/bradley/Blotter/issues/15).
+
 ## Install the Polymer-CLI
 
 First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your element locally.

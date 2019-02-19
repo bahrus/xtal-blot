@@ -1,13 +1,17 @@
-# \<xtal-blot\>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"
+    />
 
-Web component wrapper around [blotter.js](https://blotter.js.org/) 
+    <title>xtal-blot demo</title>
 
-<!--Note:  There is a sporadic issue affecting Chrome (possibly only on windows) which I attribute to the [underlying library](https://github.com/bradley/Blotter/issues/15).-->
-
-<!--
-```
-<custom-element-demo>
-<template>
+    <script src="../xtal-blot.js"></script>
+  </head>
+  <body>
     <div>
       <script src="https://cdn.jsdelivr.net/npm/xtal-blot@0.0.1/xtal-blot.js"></script>
       <xtal-blot-liquid-distort
@@ -35,18 +39,5 @@ Web component wrapper around [blotter.js](https://blotter.js.org/)
         style="display:block;height:200px"
       ></xtal-blot-channel-split>
     </div>
-</template>
-</custom-element-demo>
-```
--->
-
-## Install the Polymer-CLI
-
-First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your element locally.
-
-## Viewing Your Element
-
-```
-$ polymer serve
-```
-
+  </body>
+</html>

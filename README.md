@@ -1,3 +1,8 @@
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/xtal-blot)
+
+<a href="https://nodei.co/npm/xtal-blot/"><img src="https://nodei.co/npm/xtal-blot.png"></a>
+
+
 # \<xtal-blot\>
 
 Web component wrapper around [blotter.js](https://blotter.js.org/) 

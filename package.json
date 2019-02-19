@@ -1,0 +1,22 @@
+{
+  "name": "xtal-blot",
+  "version": "0.0.0",
+  "description": "Web component wrapper around blotter.js",
+  "main": "xtal-blot.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahrus/xtal-blot.git"
+  },
+  "author": "anderson.bruce.b@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahrus/xtal-blot/issues"
+  },
+  "homepage": "https://github.com/bahrus/xtal-blot#readme"
+}
